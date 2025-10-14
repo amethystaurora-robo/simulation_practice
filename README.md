@@ -27,7 +27,7 @@ This code has three options for running the model:
 2. Scaled model (for use in edge tracking)
 3. Seasonal model (for looking at seasonal changes)
 
-Below is the output of the first example run, showing a trajectory of the state.
+Below is the output of the first example run, showing trajectories of each group of variables: t vs s, x vs y, and y vs z.
 
 <p>
   <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/gottwald_noice.png">
