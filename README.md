@@ -20,8 +20,8 @@ The Gottwald model reproduced in this code couples the Stommel and Lorenz-84 mod
 
 This code has three options for running the model:
 
-Regular model (as described above)
-Scaled model (for use in edge tracking)
-Seasonal model (for looking at seasonal changes)
+1. Regular model (as described above)
+2. Scaled model (for use in edge tracking)
+3. Seasonal model (for looking at seasonal changes)
 
 The plan for this model is to work on edge tracking, so we would use the scaled version. This introduces another term, s, which is used to reduce amplitude of the fast atmosphere.
