@@ -20,6 +20,7 @@ The Gottwald model reproduced in this code couples the Stommel and Lorenz-84 mod
 <p>
   <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/gottwald.jpg">
 </p>
+(Mehling, et al, 2024)
 
 This code has three options for running the model:
 
@@ -34,4 +35,8 @@ Below is the output of the first example run, showing trajectories of each group
 </p>
 
 The plan for this model is to work on edge tracking, so we would use the scaled version. This introduces another term, s, which is used to reduce amplitude of the fast atmosphere.
+
+References:
+
+Mehling, O., Börner, R. and Lucarini, V., 2024. Limits to predictability of the asymptotic state of the Atlantic Meridional Overturning Circulation in a conceptual climate model. Physica D: Nonlinear Phenomena, 459, p.134043.
 
