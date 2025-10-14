@@ -21,9 +21,7 @@ The Gottwald model reproduced in this code couples the Stommel and Lorenz-84 mod
   <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/gottwald.jpg">
 </p>
 (Mehling, et al, 2024)
-
-
-
+<p></p>
 This code has three options for running the model:
 
 1. Regular model (as described above)
