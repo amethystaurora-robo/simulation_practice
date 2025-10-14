@@ -8,15 +8,18 @@ The Stommel model is a simplified ocean model without ice, and 2 main variables:
 - T: average temperature
 - S: average salinity
 
-This model divides the ocean into 2 boxes, a northern latitude and a southern latitude, finally giving 4 variables-the 2 main variables of each box: (T1, S1) and (T2, S2). The idea with the Stommel model is to produce a circulation strength by finding the density difference between the two boxes, resulting in only two variables: 
-- T1-T2
-- S1-S2.
+This model divides the ocean into 2 boxes, a northern latitude and a southern latitude, finally giving 4 variables-the 2 main variables of each box: (T1, S1) and (T2, S2). The idea with the Stommel model is to produce a circulation strength by finding the density difference between the two boxes, resulting in a coupled variable for AMOC strength:
+- 𝛹=𝑇−𝑆
 
 <p>
   <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/proxy-image.png">
 </p>
 
-The Gottwald model reproduced in this code couples the Stommel and Lorenz-84 models to give a fast, chaotic atmosphere interacting with a slow ocean. The atmosphere is affected by the ocean through the meridional temperature gradient (F) and zonal temperature gradient (G). Oceanic boundary conditions are defined using θ and 𝜎 as average surface temperature and salinity. 𝜃1 and 𝜎1 are coupling strengths defining ocean sensitivity to atmospheric changes. Temperature changes in the atmosphere continuously perturb the ocean, while fluxes in the ocean slowly shift the mean state of the atmosphere. The ocean relaxes towards Tsurf and Ssurf, which are dynamically changing due to atmospheric fluxes.
+The Gottwald model reproduced in this code couples the Stommel and Lorenz-84 models to give a fast, chaotic atmosphere interacting with a slow ocean. The atmosphere is affected by the ocean through the meridional temperature gradient (F) and zonal temperature gradient (G). Oceanic boundary conditions are defined using θ and 𝜎 as average surface temperature and salinity, which they evolve towards exponentially. 𝜃1 and 𝜎1 are coupling strengths defining ocean sensitivity to atmospheric changes. Temperature changes in the atmosphere continuously perturb the ocean, while fluxes in the ocean slowly shift the mean state of the atmosphere. The ocean relaxes towards Tsurf and Ssurf, which are dynamically changing due to atmospheric fluxes.
+
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/gottwald.jpg">
+</p>
 
 This code has three options for running the model:
 
@@ -24,4 +27,11 @@ This code has three options for running the model:
 2. Scaled model (for use in edge tracking)
 3. Seasonal model (for looking at seasonal changes)
 
+Below is the output of the first example run, showing a trajectory of the state.
+
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/gottwald_noice.png">
+</p>
+
 The plan for this model is to work on edge tracking, so we would use the scaled version. This introduces another term, s, which is used to reduce amplitude of the fast atmosphere.
+
