@@ -4,7 +4,7 @@ This code is for the Gottwald Model, a simplified climate model, combining a Lor
 
 The Lorenz-84 atmosphere involves the variables: 
 - x, the east-west strength of westerlies
-- y and z, north-south circulation of eddies (y^2 + z^2 = total eddy energy)
+- y and z, north-south circulation of eddies (y^2 + z^2 = total eddy energy, delta)
 
 The Stommel model is a simplified ocean model without ice, and 2 main variables: 
 - T: average temperature
