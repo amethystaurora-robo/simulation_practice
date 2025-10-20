@@ -26,11 +26,6 @@ The Gottwald model reproduced in this code couples the Stommel and Lorenz-84 mod
 </p>
 (Mehling, et al, 2024)
 <p></p>
-This code has three options for running the model:
-
-1. Regular model (as described above)
-2. Scaled model (for use in edge tracking)
-3. Seasonal model (for looking at seasonal changes)
 
 Below is the output of the first example run, showing trajectories of each group of variables: t vs s, x vs y, and y vs z.
 
