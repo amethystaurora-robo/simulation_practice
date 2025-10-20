@@ -35,6 +35,27 @@ Below is the output of the first example run, showing trajectories of each group
 
 The idea of this research project is to vary the time dynamics coupling term, epsilon_f, to find a combination of parameters for which the system has spontaneous transitions between states, by changing epsilon-may find that 2 attractors merge.
 
+Below is the analysis of 5 1000-year runs, with epsilon_f changed to approach zero, creating a stronger coupling with the atmosphere and ocean. The runs include parameters of epsilon f 0.03, 0.003, 0.0003, 3e-5, and 3e-6, respectively.
+
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation1.png">
+</p>
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation2.png">
+</p>
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation3.png">
+</p>
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation4.png">
+</p>
+<p>
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation5.png">
+</p>
+
+These results show no qualitative changes in behavior of the system, other than in Simulation 2, which looks to me more like a long, chaotic transient rather than a true attractor.
+
+
 References:
 
 Mehling, O., Börner, R. and Lucarini, V., 2024. Limits to predictability of the asymptotic state of the Atlantic Meridional Overturning Circulation in a conceptual climate model. Physica D: Nonlinear Phenomena, 459, p.134043.
