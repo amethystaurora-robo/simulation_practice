@@ -38,19 +38,19 @@ The idea of this research project is to vary the time dynamics coupling term, ep
 Below is the analysis of 5 1000-year runs, with epsilon_f changed to approach zero, creating a stronger coupling with the atmosphere and ocean. The runs include parameters of epsilon f 0.03, 0.003, 0.0003, 3e-5, and 3e-6, respectively.
 
 <p>
-  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation1.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation_1.png">
 </p>
 <p>
-  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation2.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation_2.png">
 </p>
 <p>
-  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation3.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation_3.png">
 </p>
 <p>
-  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation4.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation_4.png">
 </p>
 <p>
-  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation5.png">
+  <img src="https://github.com/amethystaurora-robo/simulation_practice/blob/main/Simulation_5.png">
 </p>
 
 These results show no qualitative changes in behavior of the system, other than in Simulation 2, which looks to me more like a long, chaotic transient rather than a true attractor.
