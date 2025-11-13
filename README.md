@@ -1,6 +1,6 @@
 # Simulation of Coupled Atmosphere and Ocean based on Gottwald Model
 
-This code is for the Gottwald Model, a simplified climate model, combining a Lorenz-84 chaotic atmosphere and a Stommel simplified ocean 'box' model.
+This code is for the Gottwald Model, a simplified climate model, assuming a Lorenz-84 chaotic atmosphere and a Stommel simplified ocean 'box' model.
 
 The Lorenz-84 atmosphere involves the variables: 
 - x, the east-west strength of westerlies
