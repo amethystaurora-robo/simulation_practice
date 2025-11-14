@@ -1,6 +1,6 @@
 # Simulation of Coupled Atmosphere and Ocean based on Gottwald Model
 
-This code is for the Gottwald Model, a simplified climate model, assuming a Lorenz-84 chaotic atmosphere and a Stommel simplified ocean 'box' model.
+This code is for the Gottwald Model, a simplified climate model, assuming the Lorenz-84 chaotic atmosphere and the Stommel simplified ocean '2-box' model.
 
 The Lorenz-84 atmosphere involves the variables: 
 - x, the east-west strength of westerlies
@@ -10,7 +10,7 @@ The Stommel model is a simplified ocean model without ice, and 2 main variables:
 - T: average temperature
 - S: average salinity
 
-This model divides the ocean into 2 boxes, a northern latitude and a southern latitude, finally giving 4 variables-the 2 main variables of each box: (T1, S1) and (T2, S2). The idea with the Stommel model is to produce a circulation strength by finding the density difference between the two boxes, resulting in a variable for AMOC strength:
+This model divides the ocean into 2 boxes, a northern latitude and a southern latitude, with (T1, S1) and (T2, S2). The idea with the Stommel model is to produce a circulation strength by finding the density difference between the two boxes, resulting in a variable for AMOC strength:
 - 𝛹=𝑇−𝑆
 
 Oceanic boundary conditions (the ocean's temperature and salinity in an equilibrium state) are defined using θ and 𝜎 as average surface temperature and salinity, which they evolve towards exponentially. 
